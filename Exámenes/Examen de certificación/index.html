@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exámen</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/scripts.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2>Libroteca</h2>
+            <img src="assets/img/logo.png" alt="libroteca">
+        </div>
+        <div class="botones">
+            <button id="inicio">Inicio de Sesión</button>
+            <button id="registro">Registro</button>
+        </div>
+    </nav>
+    <div class="cuerpo_superior">
+        <ul class="secciones">
+            <li><img src="assets/img/libro.png" alt="">Elige tu libro</li>
+            <li><img src="assets/img/check.png" alt="">Revisa disponibilidad</li>
+            <li><img src="assets/img/separalo.png" alt="">Sepáralo</li>
+            <li><img src="assets/img/shipping.png" alt="">Recibelo</li>
+        </ul>
+        <ul class="categorias">
+            <li><a href="#" id="ficcion" onclick="clickeo(0)">Ficción</a></li>
+            <li><a href="#" id="historicos" onclick="clickeo(1)">Históricos</a></li>
+            <li><a href="#" id="tecnologia" onclick="clickeo(2)">Tecnología</a></li>
+            <li><a href="#" id="autoayuda" onclick="clickeo(3)">Autoayuda</a></li>
+            <li><a href="#" id="poesia" onclick="clickeo(4)">Poesía</a></li>
+        </ul>
+        <div class="titulos">
+            <h1 id="cambiar">Todos los libros</h1>
+        </div>
+    </div>
+    <div class="cuerpo_inferior">
+        <div class="libros">
+            <img src="assets/img/Blame_vol2.png" alt="blame">
+            <p>Blame<br><b>Tutsomu Nihei</b></p>
+            <button id="boton1" onclick="cambiar(0)">Rentar</button>
+        </div>
+        <div class="libros">
+            <img src="assets/img/Genshiken_vol2.png" alt="genshiken">
+            <p>Genshiken<br><b>Kio Shikomu</b></p>
+            <button id="boton2" onclick="cambiar(1)">Rentar</button>
+        </div>
+        <div class="libros">
+            <img src="assets/img/SilverSpoon_vol1.png" alt="silverSpoon">
+            <p>Silver Spoon<br><b>Hiromu Arakawa</b></p>
+            <button id="boton3" onclick="cambiar(2)">Rentar</button>
+        </div>
+    </div>
+    <footer>
+        <p>Todos los derechos reservados. Libroteca</p>
+    </footer>
+</body>
+</html>

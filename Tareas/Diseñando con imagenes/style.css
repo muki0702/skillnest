@@ -1,0 +1,34 @@
+body{
+    margin: 0 20%;
+}
+img {
+    width: 20%;
+}
+.contenedor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.arriba{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: royalblue;
+}
+.almedio{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: rosybrown;
+}
+.abajo{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.pie{
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+}

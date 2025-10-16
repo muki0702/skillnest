@@ -1,0 +1,46 @@
+body{
+    width: 1500px;
+    height: 90vh;
+}
+nav{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav img{
+    width: 30%;
+}
+.paginas{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+.nav_end{
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav_end img{
+    width: 10%;
+}
+.centro{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+.centro img{
+    width: 40%;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom img{
+    width: 90%;
+}

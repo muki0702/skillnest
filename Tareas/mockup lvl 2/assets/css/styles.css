@@ -1,0 +1,53 @@
+body{
+    width: 1000px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav img{
+    width: 150px;
+}
+.topNav{
+    gap: 20px;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+}
+.navEnlaces{
+    gap: 10px;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+.navEnlaces li{
+    list-style: none;
+}
+.nav_secciones{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+}
+.cuerpo{
+    display: flex;
+}
+.cuerpo li{
+    list-style: none;
+}
+.lista{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.lista li{
+    padding: 5px;
+    width: auto;
+
+}
+.lista button{
+    width: 200px;
+}

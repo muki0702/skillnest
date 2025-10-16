@@ -1,0 +1,26 @@
+
+.tarjeta{
+    width: 800px;
+    justify-self: center;
+
+}
+.cabecera{
+    background-color: aquamarine;
+    width: 100%;
+    height: 200px;
+}
+.cuerpo{
+    padding: 50px;
+    box-shadow: lightgray 1px 1px 1px;
+}
+img{
+    width: 300px;
+    border-radius: 50%;
+    margin-top: -150px;
+}
+button{
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 20px
+}

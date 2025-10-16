@@ -1,0 +1,63 @@
+body{
+    font-size: x-large;
+    width: 1400px;
+    height: 90vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nombreylogo{
+    display: flex;
+}
+.nombreylogo img{
+    width: 15%;
+}
+.nombreylogo h1{
+    align-self: center;
+}
+.lista1{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    list-style: none;
+}
+.cuerpo{
+    background-color: bisque;
+    gap: 20px;
+    padding: 30px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.cuerpo li{
+    font-size: larger;
+    margin-left: 20px;
+}
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cuerpo button{
+    font-size: large;
+    padding: 10px 40px;
+    margin: auto;
+}
+.botones{
+    display: flex;
+}
+.abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.cajas{
+    padding: 20px;
+    justify-items: center;
+}
+.cajas img{
+    width: 100%;
+}

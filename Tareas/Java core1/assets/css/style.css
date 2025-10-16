@@ -1,0 +1,54 @@
+body{
+    margin: 5px 100px;
+    width: 1400px;
+}
+
+nav{
+    background-color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    text-justify: distribute;
+}
+nav h1{
+        margin: 0;
+}
+nav input{
+    width: 600px;
+}
+.cuerpo{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.izquierda1{
+    padding: 20px;
+    border: 1px solid black;
+}
+.izquierda2{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.derecha{
+    border: 1px solid black;
+    width: 30%;
+    height: 100px;
+}
+.derecha p{
+    margin-left: 10px;
+}
+.derecha button{
+    background-color: green;
+    padding: 5px 60px;
+    margin-left: 10px;
+}

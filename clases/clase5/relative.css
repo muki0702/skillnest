@@ -1,0 +1,26 @@
+.container{
+    margin: auto;
+    width: 700px;
+}
+.b-box{
+    border: 1px solid black;
+}
+.rojo{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+.amarillo{
+    width: 450px;
+    height: 200px;
+    background-color: yellow;
+}
+.purpura{
+    position: relative;
+    top: 251px;
+    left: 363px;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    
+}

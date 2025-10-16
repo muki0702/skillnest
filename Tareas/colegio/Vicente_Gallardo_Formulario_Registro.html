@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto</title>
+        <style>
+            #enviar{
+                color: blue;
+            }
+            input{
+                border-radius: 10px;
+            }
+            body{
+                
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulario de Contacto</h1>
+        <h2>¿Por qué contactarnos?</h2>
+        <p>
+            Llena este formulario para consultas, sugerencias o información sobre actividades escolares.
+        </p>
+        <label for="Nombre">Nombres: </label><br>
+        <input type="text" id="Nombre" name="Nombre">
+        <br><br>
+        <label for="Apellido">Apellidos: </label><br>
+        <input type="text" id="Apellido" name="Apellido">
+        <br><br>
+        <label for="Correo_Electronico">Correo Electrónico:</label><br>
+        <input type="email" id="Correo_Electronico" name="Correo_Electronico" >
+        <br><br>
+        <label for="numero_de_telefono"> Número de Teléfono:</label><br>
+        <input type="text" id="numero_de_telefono" name="numero_de_telefono">
+        <br><br>
+        <label for="fecha_nacimiento">Fecha de Contacto: </label><br>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        <br><br>
+        <div class="ticket">
+        <label for="genero">Género:</label><br><br>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="Masculino" name="Genero" value="Masculino"><br><br>
+        <label for="Femenino">Femenino</label>
+        <input type="radio" id="Femenino" name="Genero" value="Femenino"><br><br>
+        <label for="otro">Otro</label>
+        <input type="radio" id="otro" name="Genero" value="otro">
+        <br><br>
+        <label for="consulta">Tipo de consulta</label><br><br>
+        <label for="informacion">Información</label>
+        <input type="checkbox" id="informacion" name="informacion" value="informacion"><br><br>
+        <label for="reclamo">Reclamo</label>
+        <input type="checkbox" id="reclamo" name="reclamo" value="reclamo"><br><br>
+        <label for="sugerencia">Sugerencia</label>
+        <input type="checkbox" id="sugerencia" name="sugerencia" value="sugerencia">
+        <br><br>
+        </div>
+        <label for="motivo">Motivo de contacto: </label><br>
+        <select id="motivo" name="motivo" >
+        <option value="consulta">Consulta General</option>
+        <option value="dudas">Dudas Académicas</option></select>
+        <br><br>
+        <label for="adjuntar_documento">Adjuntar Documento:</label><br>
+        <input type="file" id="adjuntar_documento" name="adjuntar_documento"><br><br>
+        <label for="mensaje">Mensaje: </label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="30" placeholder="Escribe tu mensaje aquí..."></textarea>
+        <br><br>
+        <input type="submit" value="Enviar" id="enviar">
+        <input type="Reset" value="Borrar">
+    </body>

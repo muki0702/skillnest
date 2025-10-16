@@ -1,0 +1,43 @@
+.nav-bar{
+    margin: auto;
+    width: 600px;
+    background-color: gray;
+}
+.nav-bar > ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+
+}
+.borde{
+    border: 1px solid black;
+}
+.nav-bar ul li > a{
+    color: white;
+    text-decoration: none;
+}
+.principal{
+    width: 600px;
+    margin: auto;
+    height: 500px;
+    background-color: whitesmoke;
+}
+.centro{
+    text-align: center;
+}
+.principal > ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 60px;
+}
+.footer{
+    width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    
+}
